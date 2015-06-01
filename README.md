@@ -1,6 +1,5 @@
 # Dash-Projects--HTML-CSS-JavaScript-
 First Projects using HTML CSS and JS
-
 The Personal Website and the Blogging Website mainly explore the use for HTML and CSS while the MadLibs and the Restaurant Website delve more into JavaScript and some use of JQuery.
 
 The Personal Website displays a webpage of a person introducing herself and prompting for an email through a text field and a submit button. This exercise was purely to introduce myself to HTML and a bit of CSS. No JavaScript is linked to the use of sumbitting one's own email.
