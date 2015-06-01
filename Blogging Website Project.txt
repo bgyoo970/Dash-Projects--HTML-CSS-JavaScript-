@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<head>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      background: url('http://dash.ga.co/assets/jeff-bg.png');
+      background-size: cover;
+      color: rgba(100, 200, 200, .80);
+    }
+    a {
+      color: rgba(70, 180, 180, .80);
+      text-decoration: none
+    }
+    a:hover {
+      color: rgba(200, 175, 75, .80);
+    }
+    h1 {
+      font-size: 70px;
+      margin: 20px 0px 50px 0px;
+    }
+    h2 {
+      color: rgba(90, 10, 40, .80);
+    }
+    p {
+      color: rgb(0, 0, 50);
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid rgba(100, 150, 150, 0.5);
+      border-radius: 20px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(70,40,90,0.3);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+      background: rgba(230, 230, 230, 0.3);
+    }
+    body {
+     background: url('https://s-media-cache-ak0.pinimg.com/originals/2a/8b/a4/2a8ba417c10be61658cdd63de17c49bf.jpg'); 
+     background-size: cover;
+     margin: 0 auto;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <img src="http://dash.ga.co/assets/jeff.png">
+    <h1>Jeff's Blog</h1>
+    <ul>
+      <li><a href="#">About Me</a></li>
+      <li><a href="#">Best Poems</a></li>
+      <li><a href="#">Worst Poems</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>Dancers at Union Square</h2>
+    <p>So my brothers and I went to the city today to go looking for a Mother's Day gift along with just hanging out and having a good time. We went around and got some food, relaxed in some of the parks, and got some clothes for Mom. But at one point we were able to watch some breakdancers on the street perform for a little bit. They got a lot of hype from the crowd as they did their acrobatic trips. Definitely a city trip to remember.</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>Sartorial synth Echo Park, roof party</h2>
+    <p>chambray you probably haven't heard of them pour-over viral selvage umami skateboard VHS post-ironic selfies. Wes Anderson gentrify fanny pack twee, bicycle rights bitters blog keffiyeh plaid flannel. Tonx irony cliche sustainable mlkshk bitters. Four loko leggings chambray Vice.</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>Forage food truck keytar master cleanse</h2>
+    <p>ethical thundercats sustainable locavore quinoa Neutra. Aesthetic Cosby sweater single-origin coffee, bicycle rights organic lo-fi street art american apparel ennui four loko ethnic Brooklyn small batch. Forage YOLO polaroid</p>
+    <button>Like</button>
+  </article>
+  
+  <script>
+    $("button").on("click", function() {
+      alert("Clicked!")
+    });
+  </script>
+</body>
